@@ -1,0 +1,48 @@
+// import fonts here if needed
+
+// import fonts here if needed
+
+// Import variables here
+
+// Import variables here
+
+// import mixins here
+
+// import mixins here
+
+// reset settings here
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+// reset settings here
+
+// import all the components here
+
+// import all the components here
+@import "./Component/Nav/Nav";
+@import "./Component/Slider/Slider.scss";
+@import "./Component/Post/Post.scss";
+@import "./Component/Create_post/Create_post.scss";
+@import "./Component/PostDetails/Postdetails.scss";
+@import "./Component/Profile/Profile.scss";
+@import "./Component/Login/Login.scss";
+@import "./Component/SignUp/Signup.scss";
+
+// // for pc
+// @media(min-width:1020px){
+
+// }
+// // for tab
+// @media(min-width:760px) and (max-width:1020px){
+
+// }
+// // for mob
+// @media(max-width:760px){
+
+// }
+
+

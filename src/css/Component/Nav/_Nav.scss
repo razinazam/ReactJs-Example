@@ -1,0 +1,44 @@
+nav{
+    background: #ffff;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.212);
+}
+
+.container{
+    .mx-auto{
+        li{
+            a{
+                h1{
+                    color: #f67280;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .Pa{
+        
+        li{
+
+            text-align: center;
+            margin: 10px;
+            height: 40px;
+            width: 100px;
+            background: red;
+            color: #ffff !important;
+            transition: 0.3s;   
+            border: 1px solid red;
+            &:hover{
+                border-radius: 10px 0px 10px 0px;
+            background: #ffff;
+            border: 1px solid red;
+            color: red; 
+            }
+            .nav-link{
+                color: #ffff !important;
+                &:hover{
+                    color: red !important;
+                }
+            }
+        }
+
+    }
+}
