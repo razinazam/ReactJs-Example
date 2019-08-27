@@ -92,7 +92,7 @@ app.post("/login", (req, res) => {
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../dist/index.html"));
 });
-
-app.listen(3300, () => {
+const PORT = process.env.PORT|| 3000
+app.listen(PORT, () => {
   console.log("Server run");
 });
